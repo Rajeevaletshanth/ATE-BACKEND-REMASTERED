@@ -44,12 +44,12 @@ const TableReservation = database.define('table_reservation', {
     },
 
     reservation_from: {
-        type: Sequelize.TIME,
+        type: Sequelize.DATE,
         allowNull: false
     },
 
     reservation_to: {
-        type: Sequelize.TIME,
+        type: Sequelize.DATE,
         allowNull: false
     },
 
