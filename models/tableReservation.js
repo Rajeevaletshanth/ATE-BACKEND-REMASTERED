@@ -42,6 +42,7 @@ const TableReservation = database.define('table_reservation', {
     reservation_to: {
         type: Sequelize.DATE,
         allowNull: false
+        
     },
 
     note: {
